@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "nuvel-app",
+    "slug": "nuvel-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.junior41.nuvelapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.junior41.nuvelapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a1d0ee8-0acf-4c3f-9e23-e23d0bbc8cdb"
+      }
+    },
+    "owner": "junior41",
+    "updates": {
+      "url": "https://u.expo.dev/4a1d0ee8-0acf-4c3f-9e23-e23d0bbc8cdb"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
