@@ -1,0 +1,3 @@
+exp+nuvel-app://expo-development-client/?url=http%3A%2F%2F192.168.62.16%3A8081
+
+api jobs : https://fakejobs-api.vercel.app/jobs/1
