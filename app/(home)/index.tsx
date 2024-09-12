@@ -17,7 +17,7 @@ export default function Home() {
         <SafeAreaView>
             <ScrollView contentContainerStyle={{ paddingBottom: 50 }} showsVerticalScrollIndicator={false}>
                 <View style={{ paddingHorizontal: 16 }}>
-                    <Text style={{ fontSize: 20, color: '#888' }}>Hello, Daniel Seppo</Text>
+                    <Text style={{ fontSize: 20, color: '#888' }}>Hello, Daniel Seppo Eke</Text>
                     <Text style={{ fontSize: 24, fontWeight: '700' }}>Find your perfect job</Text>
                 </View>
                 <View>
@@ -43,4 +43,3 @@ export default function Home() {
         </SafeAreaView>
     )
 }
-

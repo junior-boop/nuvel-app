@@ -12,7 +12,6 @@ import GlobaleContextProvider from '@/context/globalContext';
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
   });
@@ -30,7 +29,7 @@ export default function RootLayout() {
   return (
     <GlobaleContextProvider>
       <Stack>
-        <Stack.Screen name="(home)" options={{ headerShown: false }} />
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="details" options={{ headerShown: false }} />
         <Stack.Screen name="Jobs" options={{ headerShown: false }} />
         <Stack.Screen name="popular" options={{ headerShown: false }} />

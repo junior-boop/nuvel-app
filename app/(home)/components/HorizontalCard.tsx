@@ -39,5 +39,3 @@ export default function HorizontalCard({ data, url = '' }: { data: jobItems, url
         </View>
     )
 }
-
-
